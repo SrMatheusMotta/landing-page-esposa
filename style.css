@@ -1,0 +1,779 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background: #e9c9c9; */
+}
+
+    nav {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        background-color: white;
+        border-bottom: 1px solid #ff7f4f;
+        border-top: 1px solid #ff7f4f;
+        /* box-shadow: 4px 4px 6px 2px #ff7f4f; */
+    
+
+    }
+
+        #contentNav {
+            margin: 0;
+            padding: 0;
+            width: 30%; 
+            align-items: center;
+        
+        }
+
+        #myImg {
+            width: 120px;
+            height: 120px;
+            margin: 0;
+            display: flex;
+            float: left;
+            padding-top: 20px;
+
+        }
+
+        nav div h1 {
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            display: flex;
+            padding-top: 80px;
+            font-family: 'Alata';
+
+        }
+
+        nav div h2 {
+            margin: 0;
+            display: flex;
+            padding-bottom: 40px;
+            font-family: 'Alata';
+            font-weight: 100
+            
+        }
+
+        #listNav {
+            width: 30%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 5%;
+            list-style: none;
+        }
+
+        #listNav a {
+                font-family:'Alata';
+                font-size: 18px;
+                color: black;
+                text-decoration: none;
+        }
+
+        #listNav a:hover {
+            color: #ff7f4f;
+        }
+
+    #textPeace {
+        background-image: url('image/paisagem.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment:scroll;
+        height: 30vw; 
+        display: flex;
+        align-items:initial;
+        justify-content: end;
+    }
+
+    #textHeader {
+        margin: 0;
+        font-family: 'Alata';
+        padding-top:80px;
+        padding-right: 80px;
+                
+    }
+
+    #textHeader span {
+        display: flex;
+        justify-content: end;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    
+    main {
+        display:flex;
+        justify-content:space-evenly;    
+        flex-wrap: wrap;
+        align-items: center;   
+        width: 100%;
+        height: auto; 
+        
+    }
+
+        .containerMain {
+            padding-top: 50px; 
+            display: flex;
+        
+            
+        }
+
+        .containerMain:last-child {
+            padding-bottom: 50px;
+        }
+
+        .mainImg {
+            width: 20vw;
+            height: 15vw;
+        }
+
+        .containerText {
+            background-color: #e0ccccb0;
+            width: 20vw;
+            height: 15vw;
+        }
+
+        .titleMain {
+            margin: 0;
+            padding: 10px;
+            font-family: 'Alata';
+            display: flex;
+            justify-content: center;
+        }
+        
+        .textMain {
+            font-family: 'Alata';
+            text-align: justify;
+            margin: 15px;
+        }
+
+        .buttonMain {
+        background-color: rgb(233, 150, 150);
+        border: 0;
+        width: 8vw;
+        height: 1.5vw;
+        font-family: 'Alata';
+        font-size: 15px;
+        margin-top: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 2px 4px #ff7f4f;
+        
+        }
+        
+        main a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            
+        }
+
+        .buttonMain:hover{
+            cursor: pointer;
+            background-color:  #e0cccc;
+        
+        }
+        
+    footer {
+        border-top: 2px solid #ff7f4f;
+        /* margin-top: 50px; */
+        display: flex;
+        justify-content: center;
+    }    
+
+    .infoFooter {
+        margin: 50px;
+        font-family: 'Alata';
+    }
+
+    .infoFooter a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .infoFooter a:hover{
+        color: #e0cccc;
+        
+    }
+
+    .infoFooter:first-child {
+        border-right: 2px solid black;
+        padding-right: 80px;
+    }
+
+    /*  Section About */
+
+    #aboutMe {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #e0cccc98;
+     
+    }
+
+    #imgAbout {
+        width: auto;
+        height:50vw;  
+        margin-bottom: -4px;     
+        padding: 0;
+        opacity: 60%;
+    }
+
+    #contentText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & h1 {
+            font-family: 'Alata';
+        }
+    }
+
+    #textAbout {
+        font-family: 'Alata';
+    }
+
+    /* Contact Section  */
+
+
+    #contactSection {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        position: relative;
+    }
+
+    #contactMe {
+        display: flex;
+        width: 70%;
+        height: 40vw; 
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        position: relative;
+    }
+        
+
+    #contactMe::before {
+        content:"";
+        position:absolute;
+        inset: 0;
+        background-image: url(image/terapia\ online.jpg);
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+        opacity: 60%;
+    }
+    
+    #contactBox {
+        background-color: #e0cccc63;
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+       
+          
+    }
+
+    #contactBox h1 {
+            margin: 0;
+            padding-top: 0;
+            font-family: 'Alata';
+            display: flex;
+    }
+
+    .contentLabels {
+        display:flex;
+        flex-direction: column;
+        margin: 5px;
+              
+
+    }
+    
+
+    .infoContact {
+        font-family: 'Alata';
+        font-size: 20px;
+    }
+
+    .inputContact {
+        border: 0;
+        width: 25vw;
+        height: 1.5vw;
+        font-family: 'Alata';
+        font-size: 15px;
+        border-radius: 10px;
+        box-shadow: 3px 2px 4px ;
+        padding-left: 15px;
+            
+    }
+
+    #contentCheck {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .InputContact{
+        width: 15px;
+        height: 15px;
+    }
+
+    #historyInput {
+        height: 2vw;
+        text-wrap: wrap;
+    }
+
+    #textArea {
+        resize: none;
+        font-family: 'Alata';
+        font-size: 15px;
+
+    }
+
+    #buttonContact {
+        display: flex;
+        padding-top:10px;
+        justify-content: center;
+        
+    }
+
+    #buttonContact button {
+        font-family: 'Alata';
+        width: 10vw;
+        height: 1.5vw;
+        border-radius: 10px;
+        border: 0;
+    }
+
+    #buttonContact button:hover {
+        cursor: pointer;
+        background-color:  #e0cccc;
+    }
+
+    /* Edition Services */
+
+
+    #services {
+        display: grid;
+        grid-auto-flow: column;
+        columns: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 54vw;
+        
+        
+    }
+
+    .contentServiceItems {
+        display: flex;
+        flex-direction: column;
+        columns: auto;
+        align-items: center;
+       
+        
+    }
+
+    .imgServices {
+        margin-top: 40px;
+        width: 30vw;
+        height: 30vw;
+        margin-bottom: -4px;
+    }
+
+    .contentTextServices {
+        background-color: #e0cccc98;
+        width: 30vw;
+        height: 20vw;
+        text-align: justify;
+        align-items: center;
+        & h1 {
+            text-align: center;
+            font-family: 'Alata';
+        }
+            & p {
+                font-family: 'Alata';
+                font-size: 12px;
+                text-align: center;
+            }
+    }
+
+
+
+            
+@media only screen and (max-width: 600px) {
+    
+    
+    /* Edition Nav */
+
+
+    nav {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        background-color: white;
+        border-bottom: 1px solid #ff7f4f;
+        border-top: 0.5px solid #ff7f4f;
+    
+
+    }
+
+    #contentNav {
+        margin: 0;
+        padding: 0;
+        width: 30%; 
+        align-items: center;
+    
+    }
+
+    #myImg {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 15px;
+        display: flex;
+        float: left;
+        padding: 0;
+
+    }
+
+    nav div h1 {
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        display: flex;
+        margin-top: 15px;
+        font-family: 'Alata';
+        font-size: 12px;
+
+    }
+
+    nav div h2 {
+        margin: 0;
+        display: flex;
+        padding: 0;
+        font-family: 'Alata';
+        font-size: 10px;
+        padding-bottom: 8px;
+        
+    }
+
+    #listNav {
+        width: 45%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0;
+        list-style: none;
+    }
+
+    #listNav a {
+            font-family:'Alata';
+            font-size: 8px;
+            color: black;
+            text-decoration: none;
+            padding-left: 5px;
+    }
+
+    #listNav a:hover {
+        color: #ff7f4f;
+    }
+
+        /* Edition Header initial page */
+
+    #textHeader {
+        margin: 0;
+        font-family: 'Alata';
+        padding-top:10px;
+        padding-right: 8px;
+        font-size: 8px
+                
+    }
+
+    #textHeader span {
+        display: flex;
+        justify-content: end;
+        font-size: 5px;
+        font-weight: 100;
+
+    }
+
+        /* Edition Main initial page */
+    main {
+        display:flex;
+        justify-content:space-evenly;    
+        flex-wrap: wrap;
+        align-items: center;   
+        width: 100%;
+        height: auto; 
+        
+    }
+
+        .containerMain {
+            padding-top: 10px; 
+            display: flex;        
+            
+        }
+
+        .containerMain:last-child {
+            padding-bottom: 10px;
+
+        }
+
+        .mainImg {
+            width: 25vw;
+            height: 20vw;
+        }
+
+        .containerText {
+            background-color: #e0ccccb0;
+            width: 20vw;
+            height: 20vw;
+        }
+
+        .titleMain {
+            margin: 0;
+            padding: 0px;
+            font-family: 'Alata';
+            display: flex;
+            justify-content: center;
+            font-size: 6px;
+        }
+        
+        .textMain {
+            font-family: 'Alata';
+            text-align: justify;
+            margin:2px;
+            font-size: 4px;
+
+        }
+
+        .buttonMain {
+        background-color: rgb(233, 150, 150);
+        border: 0;
+        width: 8vw;
+        height: 1.5vw;
+        font-family: 'Alata';
+        font-size: 4px;
+        margin-top: 5px;
+        border-radius: 10px;
+        box-shadow: 3px 2px 4px #ff7f4f;
+        padding: 0;
+        
+        }
+        
+        main a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            
+        }
+
+        .buttonMain:hover{
+            cursor: pointer;
+            background-color:  #e0cccc;
+        
+        }
+
+            /* Edition Footer */
+
+
+    footer {
+        border-top: 1px solid #ff7f4f;
+        margin-top:0;
+        display: flex;
+        justify-content: center;
+    }    
+
+    .infoFooter {
+        margin: 5px;
+        font-family: 'Alata';
+        font-size: 5px;
+    }
+
+    .infoFooter a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .infoFooter a:hover{
+        color: #e0cccc;
+        
+    }
+
+    .infoFooter:first-child {
+        border-right: 1px solid black;
+        padding-right: 5px;
+    }
+        
+    /* Ediction section About me */
+
+    #imgAbout {
+        width: auto;
+        height:60vw;  
+        margin-bottom: -4px;     
+        padding: 0;
+        opacity: 60%;
+    }
+
+    #contentText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & h1 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 12px;
+            
+        }
+    }
+    
+    #textAbout {
+        font-family: 'Alata';
+        font-size: 8px;
+        text-align: justify;
+    }
+
+    /* Edition Services */
+
+    #services {
+        height: 88vw;
+    }
+
+    .imgServices {
+        margin-top: 8px;
+        width: 30vw;
+        height: 30vw;
+        margin-bottom: -4px;
+    }
+
+    .contentTextServices {
+        background-color: #e0cccc98;
+        width: 30vw;
+        height: 54vw;
+        text-align: justify;
+        align-items: center;
+        & h1 {
+            text-align: center;
+            font-family: 'Alata';
+            font-size: 8px;
+            margin-bottom: 1px;
+        }
+            & p {
+                font-family: 'Alata';
+                font-size: 5px;
+                text-align: justify;
+                margin-top: 1px;
+                padding: 5px;
+            }
+    }
+
+    /* Edition section Contact */
+
+    #contactMe {
+        height: 50vw;
+    }
+
+    #contactBox {
+        background-color: #e0cccc63;
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+       
+          
+    }
+
+    #contactBox h1 {
+            margin: 0;
+            padding-top: 5px;
+            font-family: 'Alata';
+            display: flex;
+            font-size: 9px;
+    }
+
+    .contentLabels {
+        display:flex;
+        flex-direction: column;
+        margin: 2px;
+              
+
+    }
+    
+
+    .infoContact {
+        font-family: 'Alata';
+        font-size: 6px;
+    }
+
+    .inputContact {
+        border: 0;
+        width: 25vw;
+        height: 1.5vw;
+        font-family: 'Alata';
+        font-size: 6px;
+        border-radius: 10px;
+        box-shadow: 1px 0.5px 2px ;
+        padding-left: 5px;           
+    }
+
+    #contentCheck {
+        display: flex;
+        justify-content:space-around;
+        
+    }
+
+    .InputContact{
+        width: 8px;
+        height: 8px;
+    }
+
+    #myHistory {
+       width: 26vw;
+       height: 15vw;
+      
+    }
+
+    #textArea {
+        font-size: 6px;
+    }
+
+    #buttonContact {
+        display: flex;
+        padding-top:2px;
+        padding-bottom: 2px;
+        margin-bottom: 2px;
+        
+        
+    }
+
+    #buttonContact button {
+        font-family: 'Alata';
+        font-size: 6px;
+        width: 10vw;
+        height: 2vw;
+        border-radius: 10px;
+        border: 0;
+           
+    }
+
+    #buttonContact button:hover {
+        cursor: pointer;
+        background-color:  #e0cccc;
+    }
+
+}
+     
+
+
+
+   
