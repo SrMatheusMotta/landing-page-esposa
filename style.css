@@ -450,7 +450,7 @@ body {
         display: flex;
         margin-top: 15px;
         font-family: 'Alata';
-        font-size: 12px;
+        font-size: 10px;
 
     }
 
@@ -539,18 +539,18 @@ body {
         }
 
         .titleMain {
-            margin-top: 5px;
+            margin-top: 3px;
             font-family: 'Alata';
             display: flex;
             justify-content: center;
-            font-size: 18px;
+            font-size: 15px;
         }
         
         .textMain {
             font-family: 'Alata';
             text-align: justify;
-            margin:5px;
-            font-size: 9px;
+            margin-top: 2px;
+            font-size: 7px;
 
         }
 
